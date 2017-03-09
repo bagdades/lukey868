@@ -1,0 +1,131 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADCInit	payalka.c	/^void ADCInit(void) $/;"	f	signature:(void)
+ADCInit	payalka.h	/^void ADCInit		(void);$/;"	p	signature:(void)
+ADCRead	payalka.c	/^int16_t ADCRead(uint8_t chanel) $/;"	f	signature:(uint8_t chanel)
+ADCRead	payalka.h	/^int16_t ADCRead		(uint8_t chanel);$/;"	p	signature:(uint8_t chanel)
+ADC_VREF_TYPE	payalka.h	60;"	d
+AS	Makefile	/^AS = avr-gcc$/;"	m
+BUT_DDR	payalka.h	30;"	d
+BUT_MASK	payalka.h	35;"	d
+BUT_PIN	payalka.h	31;"	d
+BUT_PORT	payalka.h	29;"	d
+CC	Makefile	/^CC = avr-gcc$/;"	m
+CONTR_DDR	payalka.h	57;"	d
+CONTR_OUT	payalka.h	58;"	d
+CONTR_PORT	payalka.h	56;"	d
+CP	Makefile	/^CP = avr-objcopy$/;"	m
+DELAY_LONG	payalka.h	37;"	d
+DELAY_SHORT	payalka.h	36;"	d
+DIG_1	payalka.h	21;"	d
+DIG_2	payalka.h	22;"	d
+DIG_3	payalka.h	23;"	d
+DIG_DDR	payalka.h	20;"	d
+DIG_MASK	payalka.h	26;"	d
+DIG_P	payalka.h	25;"	d
+DIG_PORT	payalka.h	19;"	d
+DOWN	payalka.h	33;"	d
+EEMEM	payalka.c	/^uint16_t workTempEeprom EEMEM = 230;$/;"	v
+FALSE	payalka.h	/^	FALSE = 0,$/;"	e	enum:__anon1
+INC_H_	inc.h	9;"	d
+ISR	payalka.c	/^ISR(TIMER0_OVF_vect) $/;"	f
+Init	payalka.c	/^void Init(void) $/;"	f	signature:(void)
+Init	payalka.h	/^void Init			(void);$/;"	p	signature:(void)
+KeyScan	payalka.c	/^void KeyScan(void) $/;"	f	signature:(void)
+KeyScan	payalka.h	/^void KeyScan		(void);$/;"	p	signature:(void)
+LCD_DDR	payalka.h	18;"	d
+LCD_PORT	payalka.h	17;"	d
+LD	Makefile	/^LD = avr-gcc$/;"	m
+LcdCancel	payalka.c	/^void LcdCancel(void)$/;"	f	signature:(void)
+LcdCancel	payalka.h	/^void LcdCancel		(void);$/;"	p	signature:(void)
+LcdUpdate	payalka.c	/^void LcdUpdate(void) $/;"	f	signature:(void)
+LcdUpdate	payalka.h	/^void LcdUpdate		(void);$/;"	p	signature:(void)
+MAX_TEMP	payalka.h	52;"	d
+MCU	Makefile	/^MCU = mcu=atmega8$/;"	m
+MIN_TEMP	payalka.h	53;"	d
+MODE_FOUR	payalka.h	/^	MODE_FOUR$/;"	e	enum:__anon2
+MODE_ONE	payalka.h	/^	MODE_ONE = 0,$/;"	e	enum:__anon2
+MODE_THREE	payalka.h	/^	MODE_THREE,$/;"	e	enum:__anon2
+MODE_TWO	payalka.h	/^	MODE_TWO,$/;"	e	enum:__anon2
+OD	Makefile	/^OD = avr-objdump$/;"	m
+PAYALKA_H_	payalka.h	9;"	d
+PERIOD_ADC_READ	payalka.h	48;"	d
+PERIOD_KEY_SCAN	payalka.h	45;"	d
+PERIOD_LCD_CANCEL	payalka.h	47;"	d
+PERIOD_LCD_UPDATE	payalka.h	46;"	d
+PERIOD_TEMP_UPDATE	payalka.h	49;"	d
+PROGMEM	payalka.h	/^static const uint8_t sevenSegmentCod[] PROGMEM ={$/;"	v
+RM	Makefile	/^RM = rm$/;"	m
+ResultBcd	payalka.c	/^void ResultBcd(uint16_t data) $/;"	f	signature:(uint16_t data)
+ResultBcd	payalka.h	/^void ResultBcd		(uint16_t data);$/;"	p	signature:(uint16_t data)
+SZ	Makefile	/^SZ = avr-size$/;"	m
+SaveEepromMode	payalka.c	/^void SaveEepromMode(void) $/;"	f	signature:(void)
+SaveEepromMode	payalka.h	/^void SaveEepromMode	(void);$/;"	p	signature:(void)
+ShowError	payalka.c	/^void ShowError(void)$/;"	f	signature:(void)
+ShowError	payalka.h	/^void ShowError		(void);$/;"	p	signature:(void)
+T0_FREQ	payalka.h	41;"	d
+T0_INIT	payalka.h	42;"	d
+T0_PRESC	payalka.h	40;"	d
+TARGET	Makefile	/^TARGET = lukey$/;"	m
+TEST_SOLD	payalka.h	34;"	d
+TIME_SET_TEMP_VISIBLE	payalka.h	51;"	d
+TIME_WRITE_EEPROM	payalka.h	50;"	d
+TRUE	payalka.h	/^	TRUE$/;"	e	enum:__anon1
+Timer0Init	payalka.c	/^void Timer0Init(void) $/;"	f	signature:(void)
+Timer0Init	payalka.h	/^void Timer0Init		(void);$/;"	p	signature:(void)
+UP	payalka.h	32;"	d
+_DOWN	payalka.h	/^	_DOWN,$/;"	e	enum:keyPad
+_SET	payalka.h	/^	_SET$/;"	e	enum:keyPad
+_UP	payalka.h	/^	_UP = 1,$/;"	e	enum:keyPad
+_flag	payalka.h	/^volatile struct _flag{$/;"	s
+_flag::adcRead	payalka.h	/^	uint16_t adcRead:		1;$/;"	m	struct:_flag	access:public
+_flag::digPoint	payalka.h	/^	uint16_t digPoint:		1;$/;"	m	struct:_flag	access:public
+_flag::eepromWrite	payalka.h	/^	uint16_t eepromWrite:	1;$/;"	m	struct:_flag	access:public
+_flag::keyScan	payalka.h	/^	uint16_t keyScan:		1;$/;"	m	struct:_flag	access:public
+_flag::lcdCancel	payalka.h	/^	uint16_t lcdCancel:		1;$/;"	m	struct:_flag	access:public
+_flag::lcdUpdate	payalka.h	/^	uint16_t lcdUpdate:		1;$/;"	m	struct:_flag	access:public
+_flag::modeEepromWrite	payalka.h	/^	uint16_t modeEepromWrite:1;$/;"	m	struct:_flag	access:public
+_flag::noheater	payalka.h	/^	uint16_t noheater:		1;$/;"	m	struct:_flag	access:public
+_flag::readTemp	payalka.h	/^	uint16_t readTemp:		1;$/;"	m	struct:_flag	access:public
+_flag::setTempVisible	payalka.h	/^	uint16_t setTempVisible:	1;$/;"	m	struct:_flag	access:public
+_flag::tempEepromWrite	payalka.h	/^	uint16_t tempEepromWrite:1;$/;"	m	struct:_flag	access:public
+adcRead	payalka.h	/^	uint16_t adcRead:		1;$/;"	m	struct:_flag	access:public
+adcResult	payalka.c	/^int16_t adcResult;$/;"	v
+count	payalka.c	/^	static uint8_t count = 0;$/;"	l	file:
+countSetTempVisible	payalka.c	/^volatile uint16_t countSetTempVisible = TIME_SET_TEMP_VISIBLE;$/;"	v
+countTimeAdcRead	payalka.c	/^volatile uint8_t countTimeAdcRead = PERIOD_ADC_READ;$/;"	v
+countTimeKeyScan	payalka.c	/^volatile uint8_t countTimeKeyScan = PERIOD_KEY_SCAN;$/;"	v
+countTimeLcdCancel	payalka.c	/^volatile uint8_t countTimeLcdCancel = PERIOD_LCD_CANCEL;$/;"	v
+countTimeLcdUpdate	payalka.c	/^volatile uint8_t countTimeLcdUpdate = PERIOD_LCD_UPDATE;$/;"	v
+countTimeTempRead	payalka.c	/^volatile uint16_t countTimeTempRead = PERIOD_TEMP_UPDATE;$/;"	v
+countTimeWriteEeprom	payalka.c	/^volatile uint16_t countTimeWriteEeprom = TIME_WRITE_EEPROM;$/;"	v
+dataOut	payalka.c	/^uint8_t dataOut[3];$/;"	v
+diffErr	main.c	/^int16_t diffErr;$/;"	v
+digPoint	payalka.h	/^	uint16_t digPoint:		1;$/;"	m	struct:_flag	access:public
+eepromWrite	payalka.h	/^	uint16_t eepromWrite:	1;$/;"	m	struct:_flag	access:public
+error	main.c	/^int16_t error;$/;"	v
+flag	payalka.h	/^}flag;$/;"	v	typeref:struct:_flag
+integralErr	main.c	/^int16_t integralErr;$/;"	v
+key	payalka.c	/^	uint8_t key;$/;"	l
+keyPad	payalka.h	/^enum keyPad{$/;"	g
+keyPressed	payalka.c	/^uint8_t keyPressed;$/;"	v
+keyScan	payalka.h	/^	uint16_t keyScan:		1;$/;"	m	struct:_flag	access:public
+lcdCancel	payalka.h	/^	uint16_t lcdCancel:		1;$/;"	m	struct:_flag	access:public
+lcdUpdate	payalka.h	/^	uint16_t lcdUpdate:		1;$/;"	m	struct:_flag	access:public
+main	main.c	/^int main(void)$/;"	f	signature:(void)
+modeEepromWrite	payalka.h	/^	uint16_t modeEepromWrite:1;$/;"	m	struct:_flag	access:public
+noheater	payalka.h	/^	uint16_t noheater:		1;$/;"	m	struct:_flag	access:public
+preErr	main.c	/^int16_t preErr;$/;"	v
+pwm	main.c	/^int16_t pwm;$/;"	v
+pwmCounter	main.c	/^int16_t pwmCounter;$/;"	v
+readTemp	payalka.h	/^	uint16_t readTemp:		1;$/;"	m	struct:_flag	access:public
+setTempVisible	payalka.h	/^	uint16_t setTempVisible:	1;$/;"	m	struct:_flag	access:public
+temp	payalka.c	/^	static uint8_t temp = 0;$/;"	l	file:
+tempAdc	main.c	/^				int16_t tempAdc;$/;"	l
+tempEepromWrite	payalka.h	/^	uint16_t tempEepromWrite:1;$/;"	m	struct:_flag	access:public
+temperatura	payalka.c	/^uint16_t temperatura;$/;"	v
+workTemp	payalka.c	/^int16_t workTemp;$/;"	v

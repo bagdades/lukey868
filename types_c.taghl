@@ -1,0 +1,10 @@
+syn keyword CTagsLocalVariable count temp key tempAdc
+syn keyword CTagsStructure _flag
+syn keyword CTagsMember setTempVisible noheater lcdCancel eepromWrite readTemp digPoint lcdUpdate tempEepromWrite adcRead modeEepromWrite keyScan
+syn keyword CTagsGlobalVariable adcResult countTimeTempRead countTimeLcdUpdate countTimeAdcRead keyPressed error integralErr flag workTemp dataOut countTimeWriteEeprom preErr countTimeLcdCancel countTimeKeyScan diffErr countSetTempVisible pwm EEMEM temperatura pwmCounter
+syn keyword CTagsConstant PROGMEM
+syn keyword CTagsEnumeratorName keyPad
+syn keyword CTagsEnumerationValue MODE_ONE FALSE _UP MODE_THREE MODE_FOUR MODE_TWO _DOWN TRUE _SET
+syn keyword CTagsFunction main Timer0Init ShowError ISR LcdCancel LcdUpdate Init KeyScan ADCRead ResultBcd SaveEepromMode ADCInit
+syn keyword CTagsDefinedName DIG_P INC_H_ CONTR_OUT BUT_PORT BUT_PIN UP DOWN DIG_MASK MAX_TEMP DIG_1 DIG_2 DIG_3 PERIOD_TEMP_UPDATE PERIOD_KEY_SCAN PERIOD_LCD_CANCEL DIG_DDR PERIOD_ADC_READ ADC_VREF_TYPE TEST_SOLD LCD_DDR PERIOD_LCD_UPDATE DELAY_LONG T0_FREQ TIME_WRITE_EEPROM MIN_TEMP LCD_PORT T0_INIT BUT_MASK DIG_PORT DELAY_SHORT CONTR_DDR TIME_SET_TEMP_VISIBLE BUT_DDR CONTR_PORT T0_PRESC PAYALKA_H_
+
