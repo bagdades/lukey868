@@ -1,7 +1,7 @@
 syn keyword CTagsLocalVariable count temp key tempAdc
 syn keyword CTagsStructure _flag
 syn keyword CTagsMember setTempVisible noheater lcdCancel eepromWrite readTemp digPoint lcdUpdate tempEepromWrite adcRead modeEepromWrite keyScan
-syn keyword CTagsGlobalVariable adcResult countTimeTempRead countTimeLcdUpdate countTimeAdcRead keyPressed error integralErr flag workTemp dataOut countTimeWriteEeprom preErr countTimeLcdCancel countTimeKeyScan diffErr countSetTempVisible pwm EEMEM temperatura pwmCounter
+syn keyword CTagsGlobalVariable adcResult countTimeTempRead countTimeLcdUpdate countTimeAdcRead keyPressed error integralErr flag temperatura workTemp dataOut countTimeWriteEeprom preErr countTimeLcdCancel countTimeKeyScan diffErr countSetTempVisible pwm EEMEM tempTemp pwmCounter
 syn keyword CTagsConstant PROGMEM
 syn keyword CTagsEnumeratorName keyPad
 syn keyword CTagsEnumerationValue MODE_ONE FALSE _UP MODE_THREE MODE_FOUR MODE_TWO _DOWN TRUE _SET

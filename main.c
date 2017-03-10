@@ -94,13 +94,12 @@ int main(void)
 			if(flag.adcRead)
 			{
 				/*
-				 * Період ШІМ 100мс
-				 * Зчитування adc 10мс
-				 * на одиницю регулюючого сигналу припадає 1 півперіод (2%)
+				 * Period PWM 200ms
+				 * Period read ADC 5ms
 				 */
 				int16_t tempAdc;
 				adcResult = ADCRead(0);
-				tempAdc = (workTemp * 14) / 10;//переведення встановленої температури
+				tempAdc = (workTemp * 14) / 10;//Edit coefficient for corection temperature
 				//відповідно до adc
 				pwmCounter ++;
 				tempTemp += adcResult;
@@ -113,11 +112,11 @@ int main(void)
 				error = tempAdc - adcResult;
 				diffErr = error - preErr;
 				/* pwm = 2 * error + integralErr + 2 * diffErr; */
-				pwm = error + integralErr / 10 + 2 * diffErr;
-				/* if(pwm >=0 && pwm <= 20) */
+				pwm = error + integralErr + 2 * diffErr;
+				if(pwm >=0 && pwm <= 20)
 					integralErr += error;
-				/* if(integralErr > 10) */
-				/* 	integralErr = 10; */
+				if(integralErr > 10)
+					integralErr = 10;
 				preErr = error;//поточна помилка стає попередньою (використовується для розрахунку
 				//диференціальної складової)
 				/*

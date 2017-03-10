@@ -127,5 +127,6 @@ setTempVisible	payalka.h	/^	uint16_t setTempVisible:	1;$/;"	m	struct:_flag	acces
 temp	payalka.c	/^	static uint8_t temp = 0;$/;"	l	file:
 tempAdc	main.c	/^				int16_t tempAdc;$/;"	l
 tempEepromWrite	payalka.h	/^	uint16_t tempEepromWrite:1;$/;"	m	struct:_flag	access:public
+tempTemp	main.c	/^int16_t tempTemp = 0;$/;"	v
 temperatura	payalka.c	/^uint16_t temperatura;$/;"	v
 workTemp	payalka.c	/^int16_t workTemp;$/;"	v
