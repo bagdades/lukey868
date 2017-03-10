@@ -42,7 +42,7 @@
 #define T0_INIT		255 - (F_CPU/(T0_FREQ * T0_PRESC))
 
 //TIME
-#define PERIOD_KEY_SCAN			15
+#define PERIOD_KEY_SCAN			8
 #define PERIOD_LCD_UPDATE		7
 #define PERIOD_LCD_CANCEL		3
 #define PERIOD_ADC_READ			5

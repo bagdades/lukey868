@@ -112,7 +112,7 @@ int main(void)
 				error = tempAdc - adcResult;
 				diffErr = error - preErr;
 				/* pwm = 2 * error + integralErr + 2 * diffErr; */
-				pwm = error + integralErr + 2 * diffErr;
+				pwm = error + integralErr + diffErr;
 				if(pwm >=0 && pwm <= 20)
 					integralErr += error;
 				if(integralErr > 10)
