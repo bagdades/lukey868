@@ -115,8 +115,8 @@ int main(void)
 				pwm = error + integralErr + diffErr;
 				if(pwm >=0 && pwm <= 20)
 					integralErr += error;
-				if(integralErr > 10)
-					integralErr = 10;
+				if(integralErr > 15)
+					integralErr = 15;
 				preErr = error;//поточна помилка стає попередньою (використовується для розрахунку
 				//диференціальної складової)
 				/*
