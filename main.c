@@ -113,11 +113,11 @@ int main(void)
 				error = tempAdc - adcResult;
 				diffErr = error - preErr;
 				/* pwm = 2 * error + integralErr + 2 * diffErr; */
-				pwm = error + integralErr / 10 + 2 * diffErr;
-				/* if(pwm >=0 && pwm <= 20) */
+				pwm = error + 2 * integralErr + 2 * diffErr;
+				if(pwm >=0 && pwm <= 20)
 					integralErr += error;
-				/* if(integralErr > 10) */
-				/* 	integralErr = 10; */
+				if(integralErr > 10)
+					integralErr = 10;
 				preErr = error;//поточна помилка стає попередньою (використовується для розрахунку
 				//диференціальної складової)
 				/*
