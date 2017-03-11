@@ -99,7 +99,7 @@ int main(void)
 				 */
 				int16_t tempAdc;
 				adcResult = ADCRead(0);
-				tempAdc = (workTemp * 14) / 10;//Edit coefficient for corection temperature
+				tempAdc = (workTemp * 14) / 10;//Edit coefficient for correction temperature
 				//відповідно до adc
 				pwmCounter ++;
 				tempTemp += adcResult;
